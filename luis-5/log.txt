@@ -1,0 +1,50 @@
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 54 in /Users/andre/Downloads/luis-5/src/aed/modelo/contactos/GestorContactos.java:54: error: error while writing aed.modelo.contactos.GestorContactos.Iterador: /Users/andre/Downloads/luis-5/classes/aed/modelo/contactos/GestorContactos$Iterador.class
+    private class Iterador implements IteradorIteravelDuplo<Contacto> {
+            ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
