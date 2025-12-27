@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>ordenar</Name>
+    <Signature>([Ljava/lang/Object;)V</Signature>
+    <DeclaringType>aed.ordenacao.algoritmos.InsertionSort</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>280</X>
+      <Y>600</Y>
+      <W>117</W>
+      <H>36</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.Object` elemento</Expression>
+      <ViewerClass>jgrasp_viewers._X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>280</X>
+      <Y>110</Y>
+      <W>1044</W>
+      <H>422</H>
+    </Bounds>
+    <PanelSize>
+      <Key>jgrasp_viewers.java__lang__Object_BarGraphView0</Key>
+      <Order>4</Order>
+      <W>1050</W>
+      <H>468</H>
+    </PanelSize>
+    <PanelSize>
+      <Key>jgrasp_viewers._X_A_PresentationView0</Key>
+      <Order>3</Order>
+      <W>660</W>
+      <H>148</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.Object[]` elementos</Expression>
+      <Indices>i#j</Indices>
+      <ViewerClass>jgrasp_viewers.java__lang__Object_BarGraphView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>1721</W>
+    <H>927</H>
+  </Size>
+  <ESize>
+    <W>1721</W>
+    <H>927</H>
+  </ESize>
+</Canvas>

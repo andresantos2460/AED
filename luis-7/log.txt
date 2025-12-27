@@ -1,0 +1,83 @@
+Error on line 17 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:17: error: incompatible types: cannot infer type arguments for aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenadaOrdemDistinta<>
+         contactosPorDataNascimento = new ListaDuplaOrdenadaOrdemDistinta<>(ComparacaoGestoresContactosDataNascimentoPorDataNascimentoAsc.CRITERIO);
+                                                                         ^
+    reason: no instance(s) of type variable(s) T exist so that aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenadaOrdemDistinta<T> conforms to aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 21 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:21: error: cannot find symbol
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.consultarDistinto(contactosDataNascimentoVazio);
+                                                                                          ^
+  symbol:   method consultarDistinto(aed.modelo.contactos.GestorContactosDataNascimento)
+  location: variable contactosPorDataNascimento of type aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 25 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:25: error: method inserir in class aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<C,V> cannot be applied to given types;
+            contactosPorDataNascimento.inserir(contactosDataNascimento);
+                                      ^
+  required: aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento
+  found:    aed.modelo.contactos.GestorContactosDataNascimento
+  reason: actual and formal argument lists differ in length
+Error on line 30 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:30: error: incompatible types: aed.modelo.contactos.GestorContactosDataNascimento cannot be converted to aed.modelo.contactos.Data
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.remover(new GestorContactosDataNascimento(dataNascimento));
+                                                                                                   ^
+Error on line 35 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:35: error: cannot find symbol
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.consultarDistinto(new GestorContactosDataNascimento(contacto.getDataNascimento()));
+                                                                                          ^
+  symbol:   method consultarDistinto(aed.modelo.contactos.GestorContactosDataNascimento)
+  location: variable contactosPorDataNascimento of type aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 41 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:41: error: incompatible types: aed.modelo.contactos.GestorContactosDataNascimento cannot be converted to aed.modelo.contactos.Data
+          contactosPorDataNascimento.remover(contactosDataNascimento);
+                                             ^
+Error on line 47 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:47: error: cannot find symbol
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.consultarDistinto(new GestorContactosDataNascimento(dataNascimento));
+                                                                                          ^
+  symbol:   method consultarDistinto(aed.modelo.contactos.GestorContactosDataNascimento)
+  location: variable contactosPorDataNascimento of type aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 59 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:59: error: incompatible types: aed.modelo.contactos.GestorContactosDataNascimento cannot be converted to aed.modelo.contactos.Data
+           iteradorGestores = contactosPorDataNascimento.consultar(new GestorContactosDataNascimento(dataNascimentoInicial),new GestorContactosDataNascimento(dataNascimentoFinal));
+                                                                   ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line -1 in Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Error on line 17 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:17: error: incompatible types: cannot infer type arguments for aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenadaOrdemDistinta<>
+         contactosPorDataNascimento = new ListaDuplaOrdenadaOrdemDistinta<>(ComparacaoGestoresContactosDataNascimentoPorDataNascimentoAsc.CRITERIO);
+                                                                         ^
+    reason: no instance(s) of type variable(s) T exist so that aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenadaOrdemDistinta<T> conforms to aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 21 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:21: error: cannot find symbol
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.consultarDistinto(contactosDataNascimentoVazio);
+                                                                                          ^
+  symbol:   method consultarDistinto(aed.modelo.contactos.GestorContactosDataNascimento)
+  location: variable contactosPorDataNascimento of type aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 25 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:25: error: method inserir in class aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<C,V> cannot be applied to given types;
+            contactosPorDataNascimento.inserir(contactosDataNascimento);
+                                      ^
+  required: aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento
+  found:    aed.modelo.contactos.GestorContactosDataNascimento
+  reason: actual and formal argument lists differ in length
+Error on line 30 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:30: error: incompatible types: aed.modelo.contactos.GestorContactosDataNascimento cannot be converted to aed.modelo.contactos.Data
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.remover(new GestorContactosDataNascimento(dataNascimento));
+                                                                                                   ^
+Error on line 35 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:35: error: cannot find symbol
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.consultarDistinto(new GestorContactosDataNascimento(contacto.getDataNascimento()));
+                                                                                          ^
+  symbol:   method consultarDistinto(aed.modelo.contactos.GestorContactosDataNascimento)
+  location: variable contactosPorDataNascimento of type aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 41 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:41: error: incompatible types: aed.modelo.contactos.GestorContactosDataNascimento cannot be converted to aed.modelo.contactos.Data
+          contactosPorDataNascimento.remover(contactosDataNascimento);
+                                             ^
+Error on line 47 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:47: error: cannot find symbol
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimento.consultarDistinto(new GestorContactosDataNascimento(dataNascimento));
+                                                                                          ^
+  symbol:   method consultarDistinto(aed.modelo.contactos.GestorContactosDataNascimento)
+  location: variable contactosPorDataNascimento of type aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada<aed.modelo.contactos.Data,aed.modelo.contactos.GestorContactosDataNascimento>
+Error on line 59 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:59: error: incompatible types: aed.modelo.contactos.GestorContactosDataNascimento cannot be converted to aed.modelo.contactos.Data
+           iteradorGestores = contactosPorDataNascimento.consultar(new GestorContactosDataNascimento(dataNascimentoInicial),new GestorContactosDataNascimento(dataNascimentoFinal));
+                                                                   ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line -1 in Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Error on line 18 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:18: error: ';' expected
+        new TabelaHashOrdenada<>(ComparacaoDatasPorDataAsc.CRITERIO,2)
+                                                                      ^
+Error on line 18 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:18: error: ';' expected
+        new TabelaHashOrdenada<>(ComparacaoDatasPorDataAsc.CRITERIO,2)
+                                                                      ^
+Error on line 18 in C:\Users\pampi\OneDrive - IPLeiria\Eu-ESCOLA\3 SEMESTRE\AED\Projeto AED\src\aed\modelo\contactos\GestorContactos.java:18: error: ';' expected
+        new TabelaHashOrdenada<>(ComparacaoDatasPorDataAsc.CRITERIO,2)
+                                                                      ^
