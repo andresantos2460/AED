@@ -1,5 +1,6 @@
 package aed.modelo.contactos;
 
+import aed.colecoes.iteraveis.IteradorIteravelDuplo;
 import aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenadaOrdemDistinta;
 import aed.modelo.contactos.comparadores.ComparacaoNumeroTelefoneDesc;
 
@@ -33,5 +34,21 @@ public class GestorContactoMorada implements Serializable {
 	@Override
 	public String toString() {
 		return " (" + morada + ", " + contactos + ")";
+	}
+	public IteradorIteravelDuplo<Contacto> iterador(){
+		return contactos.iterador();
+	}
+
+
+	public void inserir(Contacto contacto) {
+		contactos.inserir(contacto);
+	}
+
+	public Contacto remover(Contacto contacto) {
+		return contactos.remover(contacto);
+	}
+
+	public boolean isVazio() {
+		return  contactos.isVazia();
 	}
 }

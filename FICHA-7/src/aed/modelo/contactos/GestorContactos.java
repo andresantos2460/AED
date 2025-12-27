@@ -24,6 +24,8 @@ public enum GestorContactos {
         contactosPorTelefone = new TabelaHashComIncrementoPorHash<>(2);
     }
     public void inserir(Contacto contacto){
+        contactosPorTelefone.inserir(contacto.getNumeroTelefone(),contacto);
+
         GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultar(contacto.getDataNascimento());
 
         if(contactosDataNascimento==null){
@@ -32,29 +34,43 @@ public enum GestorContactos {
         }
         contactosDataNascimento.inserir(contacto);
     }
+    public IteradorIteravelDuplo<Contacto> remover(Data dataNascimento) {
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimentos.remover(dataNascimento);
+        if (contactosDataNascimento == null) {
+            return ITERADOR_CONTACTOS_VAZIOS;
+        }
+        IteradorIteravelDuplo<Contacto> iterador = contactosDataNascimento.iterador();
+        for (Contacto contacto : iterador) {
+            contactosPorTelefone.remover(contacto.getNumeroTelefone());
+        }
+        iterador.reiniciar();
+        return iterador;
+    }
+
+
 
     public Contacto remover(Contacto contacto){
+        long numeroTelefone = contacto.getNumeroTelefone();
 
-        Data dataNascimento = contacto.getDataNascimento();
-        GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultar(dataNascimento);
-
-        if(contactosDataNascimento==null){
+        if(!contacto.equals(contactosPorTelefone.consultar(numeroTelefone))){
             return null;
         }
+        Contacto contactoRemovido=contactosPorTelefone.remover(numeroTelefone);
+        return removerDosContactosDataNascimento(contactoRemovido);
 
-        Contacto contactoRemovido=contactosDataNascimento.remover(contacto);
-        if(contactosDataNascimento.isVazio()){
+
+    }
+
+    private Contacto removerDosContactosDataNascimento(Contacto contacto) {
+        Data dataNascimento = contacto.getDataNascimento();
+        GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultar(dataNascimento);
+        contactosDataNascimento.remover(contacto);
+        if (contactosDataNascimento.isVazio()) {
             contactosPorDataNascimentos.remover(dataNascimento);
         }
+        return contacto;
 
-        return contactoRemovido;
     }
-
-    public IteradorIteravelDuplo<Contacto> remover(Data dataNascimento){
-        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimentos.remover(dataNascimento);
-        return contactosDataNascimento == null ? ITERADOR_CONTACTOS_VAZIOS : contactosDataNascimento.iterador();
-    }
-
 
     public IteradorIteravelDuplo<Contacto> consultar(Data PdataNascimento){
             GestorContactosDataNascimento gestorPdataNascimento=contactosPorDataNascimentos.consultar(PdataNascimento);
@@ -62,6 +78,30 @@ public enum GestorContactos {
     }
     public IteradorIteravelDuplo<Contacto> consultar(Data dataInicial,Data dataFinal){
         return new Iterador(dataInicial,dataFinal);
+    }
+
+
+    public Contacto consultar(long numeroTelefone){
+        return contactosPorTelefone.consultar(numeroTelefone);
+    }
+
+    public Contacto remover(long numeroTelefone){
+        Contacto contactoRemover = contactosPorTelefone.remover(numeroTelefone);
+
+        return contactoRemover ==null? null:removerDosContactosDataNascimento(contactoRemover);
+
+    }
+
+    public IteradorIteravel<String> consultarMoradas(Data dataNascimento){
+        GestorContactosDataNascimento contactosDataNascimento = new GestorContactosDataNascimento(dataNascimento);
+
+        return contactosDataNascimento==null ? ITERADOR_STRINGS_VAZIOS:contactosDataNascimento.getMoradas();
+    }
+
+    public IteradorIteravelDuplo<Contacto> consultar(Data data,String morada){
+        GestorContactosDataNascimento contactosDataNascimento = new GestorContactosDataNascimento(data);
+
+        return contactosDataNascimento == null? ITERADOR_CONTACTOS_VAZIOS:contactosDataNascimento.getContactos(morada);
     }
 
     private class Iterador implements IteradorIteravelDuplo<Contacto>{
