@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc99390a-078b-4ee7-88ef-01c64bb83456" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>value</find>
+      <find>GestorContactos.INSTANCIA</find>
+      <find>inser</find>
+      <find>GestorContactos</find>
+      <find>consulta</find>
+      <find>is</find>
+      <find>ITERADOR_DUPLO_COLECAO_VAZIA_CONTACTOS</find>
+      <find>NoSuch</find>
+      <find>removerRecursivo</find>
+      <find>iterativo</find>
+      <find>equals</find>
+      <find>consul</find>
+      <find>return null</find>
+      <find>min</find>
+      <find>put</find>
+      <find>entry</find>
+      <find>inserir</find>
+      <find>con</find>
+      <find>consult</find>
+      <find>remover</find>
+      <find>removert</find>
+      <find>ad</find>
+      <find>removerTo</find>
+      <find>removerTodos</find>
+      <find>iteradorIt</find>
+      <find>iterador</find>
+      <find>consultar</find>
+      <find>MainAvaliacao</find>
+      <find>Contac</find>
+      <find>inserirTo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>numeroElementos</replace>
+      <replace>gestaoContactos</replace>
+    </replaceStrings>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="1QyB0yrSzCpov60c6sRonOO8Z2D" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Kotlin</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/OD/OneDrive - IPLeiria/2023_2024_AED/Práticas/Ficha Prática 5/ProjetoBase_FichaPratica5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.varios.pesquisabinariacompleta" />
+      <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua" />
+      <recent name="pt.ipleiria.estg.dei.aed" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos.hashings" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - IPLeiria\Aulas\2023_2024_AED\Práticas\Ficha Prática 5\ResolucaoParaGuiao_FichaPratica5\src\aed" />
+      <recent name="F:\OneDrive - IPLeiria\Aulas\2023_2024_AED\Práticas\Ficha Prática 5\ResolucaoParaGuiao_FichaPratica5\src\aed\modelo" />
+      <recent name="C:\OD\OneDrive - IPLeiria\2023_2024_AED\Práticas\Ficha Prática 5\ProjetoBase_FichaPratica5\src\aed\colecoes\iteraveis\lineares\naoordenadas\utilizacao\deprecated" />
+      <recent name="C:\OD\OneDrive - IPLeiria\2023_2024_AED\Práticas\Ficha Prática 5\ProjetoBase_FichaPratica5\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao" />
+      <recent name="C:\OD\OneDrive - IPLeiria\2023_2024_AED\Práticas\Ficha Prática 5\ProjetoBase_FichaPratica5\src\aed\colecoes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - IPLeiria\Aulas\2023_2024_AED\Práticas\Ficha Prática 5\ProjetoBase_FichaPratica5\src\aed\modelo\contactos" />
+      <recent name="C:\OD\OneDrive - IPLeiria\2022_2023_AED\Resolucoes\src\aed\analisecomplexidade\utilizacao" />
+      <recent name="F:\MeoCloud\2017_2018_AED\Resolucoes\src\pt\ipleiria\estg\dei\aed\modelo\contactos\comparadores" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.estruturas" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aed.colecoes.iteraveis.lineares.naoordenadas.utilizacao" />
+      <recent name="aed.colecoes.iteraveis.lineares.naoordenadas.estruturas" />
+      <recent name="aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.deprecated" />
+      <recent name="aed.colecoes.iteraveis.associativas.estruturas" />
+      <recent name="testes_funcionais" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1511305595900" text="numeroElementos == 0" recursive="false" caseInsensitive="true" type="JAVA" history="1">
+      <constraint name="__context__" target="true" within="" contains="" />
+    </searchConfiguration>
+    <replaceConfiguration name="user defined" created="1509854346625" text="atual" recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="cor" history="1" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc99390a-078b-4ee7-88ef-01c64bb83456" name="Default" comment="" />
+      <created>1509469574018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509469574018</updated>
+      <workItem from="1509469575666" duration="401000" />
+      <workItem from="1509470010888" duration="132000" />
+      <workItem from="1509470193095" duration="42000" />
+      <workItem from="1509466675345" duration="17000" />
+      <workItem from="1509470471513" duration="2931000" />
+      <workItem from="1509577249590" duration="12000" />
+      <workItem from="1509583137791" duration="40000" />
+      <workItem from="1509583321650" duration="1456000" />
+      <workItem from="1509610254951" duration="38000" />
+      <workItem from="1509610321930" duration="149000" />
+      <workItem from="1509620646659" duration="12000" />
+      <workItem from="1509636823471" duration="6229000" />
+      <workItem from="1509661472048" duration="1126000" />
+      <workItem from="1509663888075" duration="1271000" />
+      <workItem from="1509700349350" duration="10000" />
+      <workItem from="1509702036593" duration="1194000" />
+      <workItem from="1509708797515" duration="1492000" />
+      <workItem from="1509710662833" duration="221000" />
+      <workItem from="1509710918330" duration="1179000" />
+      <workItem from="1509720305752" duration="157000" />
+      <workItem from="1509720559385" duration="388000" />
+      <workItem from="1509728694210" duration="75000" />
+      <workItem from="1509732483369" duration="1018000" />
+      <workItem from="1509744697681" duration="511000" />
+      <workItem from="1509847427901" duration="19111000" />
+      <workItem from="1509970599222" duration="10056000" />
+      <workItem from="1509998922818" duration="4247000" />
+      <workItem from="1510012456464" duration="1859000" />
+      <workItem from="1510017336733" duration="5257000" />
+      <workItem from="1510053004815" duration="417000" />
+      <workItem from="1510066320861" duration="7325000" />
+      <workItem from="1510074980423" duration="798000" />
+      <workItem from="1510096414876" duration="3779000" />
+      <workItem from="1510136116299" duration="2610000" />
+      <workItem from="1510155684880" duration="3294000" />
+      <workItem from="1510179943694" duration="1055000" />
+      <workItem from="1510191607979" duration="880000" />
+      <workItem from="1510193048689" duration="387000" />
+      <workItem from="1510226422825" duration="80000" />
+      <workItem from="1510228131525" duration="1166000" />
+      <workItem from="1510241057573" duration="7023000" />
+      <workItem from="1510270680412" duration="1968000" />
+      <workItem from="1510305377445" duration="5000" />
+      <workItem from="1510308429255" duration="395000" />
+      <workItem from="1510311218150" duration="2739000" />
+      <workItem from="1510325168020" duration="108000" />
+      <workItem from="1510325502880" duration="3909000" />
+      <workItem from="1510329958253" duration="1553000" />
+      <workItem from="1510337596175" duration="66000" />
+      <workItem from="1510338886023" duration="116000" />
+      <workItem from="1510339048807" duration="472000" />
+      <workItem from="1510356501642" duration="1157000" />
+      <workItem from="1510363418033" duration="799000" />
+      <workItem from="1510364237885" duration="2238000" />
+      <workItem from="1510452062819" duration="697000" />
+      <workItem from="1510452856230" duration="8141000" />
+      <workItem from="1510528811875" duration="6000" />
+      <workItem from="1510529968853" duration="9106000" />
+      <workItem from="1510574022716" duration="5722000" />
+      <workItem from="1510610262886" duration="10502000" />
+      <workItem from="1510671156151" duration="143000" />
+      <workItem from="1510671330441" duration="394000" />
+      <workItem from="1510671895424" duration="1067000" />
+      <workItem from="1510703461052" duration="1351000" />
+      <workItem from="1510705603000" duration="377000" />
+      <workItem from="1510706024668" duration="533000" />
+      <workItem from="1510706815252" duration="39000" />
+      <workItem from="1510745186577" duration="91000" />
+      <workItem from="1510749818780" duration="1497000" />
+      <workItem from="1510752427182" duration="67000" />
+      <workItem from="1510754292572" duration="6435000" />
+      <workItem from="1510791894853" duration="2099000" />
+      <workItem from="1510830109785" duration="82000" />
+      <workItem from="1510830648292" duration="8000" />
+      <workItem from="1510846331146" duration="187000" />
+      <workItem from="1510846575768" duration="9493000" />
+      <workItem from="1510871922400" duration="9281000" />
+      <workItem from="1510931482239" duration="4864000" />
+      <workItem from="1510938090572" duration="1788000" />
+      <workItem from="1510942936924" duration="110000" />
+      <workItem from="1510943428289" duration="142000" />
+      <workItem from="1510944765818" duration="5924000" />
+      <workItem from="1510953397872" duration="19000" />
+      <workItem from="1511048408485" duration="28000" />
+      <workItem from="1511048534776" duration="811000" />
+      <workItem from="1511052695108" duration="21000" />
+      <workItem from="1511197648374" duration="4037000" />
+      <workItem from="1511276900823" duration="258000" />
+      <workItem from="1511277279432" duration="1391000" />
+      <workItem from="1511305497437" duration="11484000" />
+      <workItem from="1511359422664" duration="4619000" />
+      <workItem from="1511394043917" duration="11000" />
+      <workItem from="1511451513824" duration="995000" />
+      <workItem from="1511466969248" duration="6708000" />
+      <workItem from="1511514718166" duration="81000" />
+      <workItem from="1511523433506" duration="4600000" />
+      <workItem from="1511535312629" duration="5982000" />
+      <workItem from="1511545197798" duration="720000" />
+      <workItem from="1511559253568" duration="17000" />
+      <workItem from="1511603656825" duration="1022000" />
+      <workItem from="1511605146515" duration="32000" />
+      <workItem from="1511732717655" duration="1499000" />
+      <workItem from="1511735952098" duration="12735000" />
+      <workItem from="1511790496322" duration="12411000" />
+      <workItem from="1511808413293" duration="5023000" />
+      <workItem from="1511821912394" duration="325000" />
+      <workItem from="1511822253089" duration="32000" />
+      <workItem from="1511822359784" duration="59000" />
+      <workItem from="1511822733148" duration="1630000" />
+      <workItem from="1511826582402" duration="669000" />
+      <workItem from="1511828693110" duration="18000" />
+      <workItem from="1511828960251" duration="953000" />
+      <workItem from="1511830905380" duration="6730000" />
+      <workItem from="1511865543513" duration="810000" />
+      <workItem from="1511866912990" duration="5695000" />
+      <workItem from="1511880782330" duration="1714000" />
+      <workItem from="1511885767452" duration="385000" />
+      <workItem from="1511912176671" duration="680000" />
+      <workItem from="1511924350584" duration="600000" />
+      <workItem from="1511954296970" duration="596000" />
+      <workItem from="1511976667144" duration="20000" />
+      <workItem from="1512040369858" duration="26000" />
+      <workItem from="1512043668606" duration="1000" />
+      <workItem from="1512054698790" duration="462000" />
+      <workItem from="1512077971778" duration="10000" />
+      <workItem from="1512146578966" duration="93000" />
+      <workItem from="1512150557649" duration="57000" />
+      <workItem from="1512382703473" duration="236000" />
+      <workItem from="1512442300375" duration="263000" />
+      <workItem from="1512482302162" duration="1589000" />
+      <workItem from="1512491532156" duration="115000" />
+      <workItem from="1512520061065" duration="14000" />
+      <workItem from="1512568749497" duration="8051000" />
+      <workItem from="1512606851427" duration="123000" />
+      <workItem from="1512607535408" duration="5511000" />
+      <workItem from="1512660906025" duration="733000" />
+      <workItem from="1512661667270" duration="6223000" />
+      <workItem from="1512861198095" duration="372000" />
+      <workItem from="1513017391231" duration="36000" />
+      <workItem from="1513017528929" duration="598000" />
+      <workItem from="1513018916160" duration="5889000" />
+      <workItem from="1513029754944" duration="722000" />
+      <workItem from="1513033097727" duration="36000" />
+      <workItem from="1513033407666" duration="43000" />
+      <workItem from="1513033456136" duration="769000" />
+      <workItem from="1513046475486" duration="34000" />
+      <workItem from="1513075640406" duration="456000" />
+      <workItem from="1513090400290" duration="184000" />
+      <workItem from="1513090904808" duration="109000" />
+      <workItem from="1513092502284" duration="1236000" />
+      <workItem from="1513123560568" duration="876000" />
+      <workItem from="1513125163666" duration="234000" />
+      <workItem from="1513209894802" duration="4000" />
+      <workItem from="1513213301159" duration="397000" />
+      <workItem from="1513243433107" duration="5000" />
+      <workItem from="1513251088229" duration="20000" />
+      <workItem from="1513264014112" duration="845000" />
+      <workItem from="1513266667542" duration="3093000" />
+      <workItem from="1513291757922" duration="632000" />
+      <workItem from="1513328785470" duration="28000" />
+      <workItem from="1513330373719" duration="26000" />
+      <workItem from="1513349301897" duration="599000" />
+      <workItem from="1513351005430" duration="3306000" />
+      <workItem from="1513354352996" duration="59000" />
+      <workItem from="1513359303801" duration="11000" />
+      <workItem from="1513361983284" duration="23000" />
+      <workItem from="1513364407479" duration="1082000" />
+      <workItem from="1513371251914" duration="362000" />
+      <workItem from="1513384205872" duration="159000" />
+      <workItem from="1513635262907" duration="338000" />
+      <workItem from="1513635688868" duration="757000" />
+      <workItem from="1513642961278" duration="90000" />
+      <workItem from="1513648941111" duration="846000" />
+      <workItem from="1513682067583" duration="13000" />
+      <workItem from="1513683194849" duration="182000" />
+      <workItem from="1513697101697" duration="2070000" />
+      <workItem from="1514059597385" duration="1459000" />
+      <workItem from="1514653971053" duration="14000" />
+      <workItem from="1514906652604" duration="9616000" />
+      <workItem from="1514936416776" duration="628000" />
+      <workItem from="1514977056021" duration="8846000" />
+      <workItem from="1514988065898" duration="2696000" />
+      <workItem from="1514992286557" duration="2886000" />
+      <workItem from="1514995447575" duration="240000" />
+      <workItem from="1514997884376" duration="3543000" />
+      <workItem from="1515017498469" duration="225000" />
+      <workItem from="1515018675171" duration="114000" />
+      <workItem from="1515018870156" duration="534000" />
+      <workItem from="1515024037671" duration="332000" />
+      <workItem from="1515032962544" duration="74000" />
+      <workItem from="1515057895505" duration="1373000" />
+      <workItem from="1515063712107" duration="11000" />
+      <workItem from="1515068280786" duration="607000" />
+      <workItem from="1515077833075" duration="23000" />
+      <workItem from="1515082264049" duration="599000" />
+      <workItem from="1515162619878" duration="2209000" />
+      <workItem from="1515173452825" duration="3573000" />
+      <workItem from="1515184617551" duration="839000" />
+      <workItem from="1515186382567" duration="11000" />
+      <workItem from="1515193366014" duration="3300000" />
+      <workItem from="1515363994665" duration="1260000" />
+      <workItem from="1515367493747" duration="279000" />
+      <workItem from="1515413261445" duration="10713000" />
+      <workItem from="1515432430250" duration="106000" />
+      <workItem from="1515433709505" duration="806000" />
+      <workItem from="1515437409838" duration="2187000" />
+      <workItem from="1515496647264" duration="104000" />
+      <workItem from="1515496908255" duration="885000" />
+      <workItem from="1515510911581" duration="1122000" />
+      <workItem from="1515513130650" duration="2000" />
+      <workItem from="1515599166268" duration="1812000" />
+      <workItem from="1515603991923" duration="35000" />
+      <workItem from="1515607920461" duration="7000" />
+      <workItem from="1515609270227" duration="61000" />
+      <workItem from="1515626150806" duration="517000" />
+      <workItem from="1515628856683" duration="19000" />
+      <workItem from="1515663274325" duration="15000" />
+      <workItem from="1515669595754" duration="141000" />
+      <workItem from="1515670290503" duration="1480000" />
+      <workItem from="1515678213845" duration="38000" />
+      <workItem from="1515685130292" duration="16000" />
+      <workItem from="1515686878331" duration="6464000" />
+      <workItem from="1515762427173" duration="552000" />
+      <workItem from="1515763916724" duration="249000" />
+      <workItem from="1516102728878" duration="36000" />
+      <workItem from="1517589068843" duration="555000" />
+      <workItem from="1517835441236" duration="46000" />
+      <workItem from="1517843543830" duration="308000" />
+      <workItem from="1517928770094" duration="69000" />
+      <workItem from="1517930500042" duration="3532000" />
+      <workItem from="1518044736643" duration="58000" />
+      <workItem from="1537193682009" duration="1870000" />
+      <workItem from="1537746850941" duration="1519000" />
+      <workItem from="1537748507602" duration="1867000" />
+      <workItem from="1537798751191" duration="311000" />
+      <workItem from="1540770248897" duration="353000" />
+      <workItem from="1540834701996" duration="636000" />
+      <workItem from="1540898865014" duration="132000" />
+      <workItem from="1541429080586" duration="1110000" />
+      <workItem from="1541435973218" duration="142000" />
+      <workItem from="1541524904786" duration="826000" />
+      <workItem from="1541525849573" duration="1218000" />
+      <workItem from="1541539455842" duration="49000" />
+      <workItem from="1542036702925" duration="91000" />
+      <workItem from="1542037849699" duration="179000" />
+      <workItem from="1542038144944" duration="16000" />
+      <workItem from="1542044081270" duration="1077000" />
+      <workItem from="1542066898662" duration="942000" />
+      <workItem from="1542123552025" duration="3386000" />
+      <workItem from="1542142406235" duration="158000" />
+      <workItem from="1542273828598" duration="10000" />
+      <workItem from="1543246609385" duration="262000" />
+      <workItem from="1543251701400" duration="43000" />
+      <workItem from="1546207917545" duration="97000" />
+      <workItem from="1546812181507" duration="2814000" />
+      <workItem from="1546874515700" duration="6237000" />
+      <workItem from="1546882322044" duration="1056000" />
+      <workItem from="1546938549384" duration="10000" />
+      <workItem from="1547132644976" duration="1075000" />
+      <workItem from="1547593215382" duration="655000" />
+      <workItem from="1547597532283" duration="77000" />
+      <workItem from="1548157565292" duration="3285000" />
+      <workItem from="1548175923298" duration="2108000" />
+      <workItem from="1548178914145" duration="217000" />
+      <workItem from="1548179218431" duration="3471000" />
+      <workItem from="1548414750743" duration="56000" />
+      <workItem from="1549537283672" duration="1277000" />
+      <workItem from="1550077033634" duration="294000" />
+      <workItem from="1550077591796" duration="147000" />
+      <workItem from="1567502057274" duration="2309000" />
+      <workItem from="1567505184740" duration="3390000" />
+      <workItem from="1567511174409" duration="2000" />
+      <workItem from="1568732739695" duration="551000" />
+      <workItem from="1568733605117" duration="1472000" />
+      <workItem from="1569947040572" duration="21000" />
+      <workItem from="1570117656698" duration="225000" />
+      <workItem from="1571035212544" duration="433000" />
+      <workItem from="1571158796713" duration="1168000" />
+      <workItem from="1571756778314" duration="191000" />
+      <workItem from="1571756991622" duration="11000" />
+      <workItem from="1571757396652" duration="53000" />
+      <workItem from="1571757470271" duration="219000" />
+      <workItem from="1571758165174" duration="1195000" />
+      <workItem from="1571759413241" duration="555000" />
+      <workItem from="1572822148558" duration="2736000" />
+      <workItem from="1630692448371" duration="262000" />
+      <workItem from="1630692905435" duration="11000" />
+      <workItem from="1630693640837" duration="674000" />
+      <workItem from="1630920042877" duration="557000" />
+      <workItem from="1630926389145" duration="59000" />
+      <workItem from="1630926491239" duration="297000" />
+      <workItem from="1630928223021" duration="669000" />
+      <workItem from="1631008306582" duration="655000" />
+      <workItem from="1661250450758" duration="2273000" />
+      <workItem from="1661253008919" duration="452000" />
+      <workItem from="1661253674295" duration="139000" />
+      <workItem from="1661259255821" duration="12487000" />
+      <workItem from="1661783343285" duration="1113000" />
+      <workItem from="1661875664432" duration="53000" />
+      <workItem from="1661939289917" duration="1627000" />
+      <workItem from="1661940994744" duration="3815000" />
+      <workItem from="1662026962200" duration="970000" />
+      <workItem from="1662046535685" duration="4024000" />
+      <workItem from="1662130576056" duration="493000" />
+      <workItem from="1662131104685" duration="6678000" />
+      <workItem from="1662364761179" duration="4247000" />
+      <workItem from="1662372785542" duration="24000" />
+      <workItem from="1662374034235" duration="15343000" />
+      <workItem from="1662452432344" duration="8855000" />
+      <workItem from="1662463214729" duration="5657000" />
+      <workItem from="1662541451179" duration="3493000" />
+      <workItem from="1662545574399" duration="96000" />
+      <workItem from="1662556422655" duration="39000" />
+      <workItem from="1662730267403" duration="7003000" />
+      <workItem from="1662739734176" duration="8000" />
+      <workItem from="1662976133858" duration="2528000" />
+      <workItem from="1662979092155" duration="13637000" />
+      <workItem from="1663249479461" duration="6184000" />
+      <workItem from="1663260872269" duration="1157000" />
+      <workItem from="1663583483203" duration="543000" />
+      <workItem from="1663596379411" duration="2923000" />
+      <workItem from="1663599841241" duration="4363000" />
+      <workItem from="1663664634788" duration="6642000" />
+      <workItem from="1663682483058" duration="253000" />
+      <workItem from="1663682752015" duration="240000" />
+      <workItem from="1663683008919" duration="45000" />
+      <workItem from="1663683127076" duration="49000" />
+      <workItem from="1663683191598" duration="4243000" />
+      <workItem from="1663707662603" duration="1160000" />
+      <workItem from="1663771135816" duration="3639000" />
+      <workItem from="1663831580602" duration="63000" />
+      <workItem from="1663831838747" duration="802000" />
+      <workItem from="1663837242491" duration="611000" />
+      <workItem from="1663950997445" duration="1255000" />
+      <workItem from="1664183270475" duration="2580000" />
+      <workItem from="1664186153620" duration="12735000" />
+      <workItem from="1664268727810" duration="9808000" />
+      <workItem from="1664292528830" duration="70000" />
+      <workItem from="1664294607989" duration="1440000" />
+      <workItem from="1664789009049" duration="4283000" />
+      <workItem from="1664803994605" duration="15000" />
+      <workItem from="1664804263123" duration="1287000" />
+      <workItem from="1664805926389" duration="55000" />
+      <workItem from="1667212074679" duration="68000" />
+      <workItem from="1667390439308" duration="31000" />
+      <workItem from="1667906493204" duration="131000" />
+      <workItem from="1670152669377" duration="248000" />
+      <workItem from="1689069492922" duration="199000" />
+      <workItem from="1689069782477" duration="107000" />
+      <workItem from="1689069969879" duration="949000" />
+      <workItem from="1697553763180" duration="960000" />
+      <workItem from="1697554752592" duration="659000" />
+      <workItem from="1697555948570" duration="5549000" />
+      <workItem from="1697624249661" duration="6697000" />
+      <workItem from="1697634715887" duration="520000" />
+      <workItem from="1697635381534" duration="13000" />
+      <workItem from="1697646770470" duration="131000" />
+      <workItem from="1697646927386" duration="45000" />
+      <workItem from="1697666317252" duration="152000" />
+      <workItem from="1697795115974" duration="181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/utils/gui/CallCenterGUI.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/utils/gui/CallCenterGUI.java</url>
+          <line>421</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/utils/gui/CallCenterGUI.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaDuplaCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoLinear.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoQuadratico.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoPorHash.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/ordenacao/algoritmos/BubbleSort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/ordenacao/algoritmos/BubbleSortOtimizado.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/ordenacao/algoritmos/SelectionSort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/pesquisa/algoritmos/PesquisaBinariaEmSequenciaOrdenada.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaNaoOrdenada.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/pesquisa/algoritmos/PesquisaLinearEmSequenciaOrdenadaEmSequenciaOrdenada.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/testes_urbano/MainTestesListaSimplesNaoOrdenada.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/testes_urbano/MainTestesListaSimplesNaoOrdenada.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/testes_urbano/MainTestesListaSimplesCircularBaseNaoOrdenada.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/testes_urbano/MainTestesListaSimplesCircularBaseNaoOrdenadaDistinto.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/testes_urbano/MainTestesListaDuplaNaoOrdenada.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/testes_urbano/MainTestesListaDuplaNaoOrdenada.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/testes_urbano/MainTestesListaDuplaCircularBaseNaoOrdenada.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaDuplaCircularBaseNaoOrdenada.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaSimplesCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaSimplesCircularBaseOrdemMaximaOrdenadaDistinta.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaDuplaCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaSimplesNaoOrdenada.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaSimplesCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaSimplesCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/TestesListasOrdenadas.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/TestesListasOrdenadas.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaSimplesCircularBaseOrdenada.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaSimplesCircularBaseOrdenada.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaSimplesCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaDuplaCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testes_funcionais/MainTestesListaDuplaCircularBaseOrdemMaximaOrdenada.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/naoordenadas/utilizacao/deprecated/MainTeoricaListaDuplaNaoOrdenada.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/aed/colecoes/iteraveis/lineares/naoordenadas/utilizacao/deprecated/MainTeoricaListaSimplesNaoOrdenada.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
