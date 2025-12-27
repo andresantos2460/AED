@@ -1,0 +1,9 @@
+Error on line 25 in C:\Users\Santoz\Documents\AED\AED\FICHA-6\src\aed\modelo\contactos\GestorContactos.java:25: error: ';' expected
+            contactosPorDataNascimentos.inserir(contactosDataNascimento);
+                                       ^
+Error on line 25 in C:\Users\Santoz\Documents\AED\AED\FICHA-6\src\aed\modelo\contactos\GestorContactos.java:25: error: ';' expected
+            contactosPorDataNascimentos.inserir(contactosDataNascimento);
+                                       ^
+Error on line 25 in C:\Users\Santoz\Documents\AED\AED\FICHA-6\src\aed\modelo\contactos\GestorContactos.java:25: error: ';' expected
+            contactosPorDataNascimentos.inserir(contactosDataNascimento);
+                                       ^

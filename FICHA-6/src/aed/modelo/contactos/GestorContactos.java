@@ -18,39 +18,40 @@ public enum GestorContactos {
         contactosPorDataNascimentos=new TabelaHashOrdenada<>(ComparacaoDataNascAsc.CRITERIO,2);
     }
     public void inserir(Contacto contacto){
-        GestorContactosDataNascimento contactosDataNascimentoTemporario=new GestorContactosDataNascimento(contacto.getDataNascimento());
-        GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultarDistinto(contactosDataNascimentoTemporario);
+        GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultar(contacto.getDataNascimento());
 
         if(contactosDataNascimento==null){
-            contactosDataNascimento=contactosDataNascimentoTemporario;
-            contactosPorDataNascimentos.inserir(contactosDataNascimento);
+            contactosDataNascimento = new GestorContactosDataNascimento(contacto.getDataNascimento());
+            contactosPorDataNascimentos.inserir(contacto.getDataNascimento(),contactosDataNascimento);
         }
-
         contactosDataNascimento.inserir(contacto);
     }
 
     public Contacto remover(Contacto contacto){
 
-        GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultarDistinto(new GestorContactosDataNascimento(contacto.getDataNascimento()));
+        Data dataNascimento = contacto.getDataNascimento();
+        GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultar(dataNascimento);
 
         if(contactosDataNascimento==null){
             return null;
         }
+
         Contacto contactoRemovido=contactosDataNascimento.remover(contacto);
         if(contactosDataNascimento.isVazio()){
-            contactosPorDataNascimentos.remover(contactosDataNascimento);
+            contactosPorDataNascimentos.remover(dataNascimento);
         }
 
         return contactoRemovido;
     }
+
     public IteradorIteravelDuplo<Contacto> remover(Data dataNascimento){
-        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimentos.remover(new GestorContactosDataNascimento(dataNascimento));
+        GestorContactosDataNascimento contactosDataNascimento = contactosPorDataNascimentos.remover(dataNascimento);
         return contactosDataNascimento == null ? ITERADOR_CONTACTOS_VAZIOS : contactosDataNascimento.iterador();
     }
 
 
     public IteradorIteravelDuplo<Contacto> consultar(Data PdataNascimento){
-            GestorContactosDataNascimento gestorPdataNascimento=contactosPorDataNascimentos.consultarDistinto(new GestorContactosDataNascimento(PdataNascimento));
+            GestorContactosDataNascimento gestorPdataNascimento=contactosPorDataNascimentos.consultar(PdataNascimento);
             return gestorPdataNascimento==null?ITERADOR_CONTACTOS_VAZIOS:gestorPdataNascimento.iterador();
     }
     public IteradorIteravelDuplo<Contacto> consultar(Data dataInicial,Data dataFinal){
@@ -62,7 +63,7 @@ public enum GestorContactos {
         private IteradorIteravelDuplo<Contacto> iteradorContactos;
 
         public Iterador(Data dataInicial, Data dataFinal) {
-            iteradorGestores = contactosPorDataNascimentos.consultar(new GestorContactosDataNascimento(dataInicial),new GestorContactosDataNascimento(dataFinal));
+            iteradorGestores = contactosPorDataNascimentos.consultarValores(dataInicial,dataFinal);
             iteradorContactos=ITERADOR_CONTACTOS_VAZIOS;
         }
 
