@@ -1,6 +1,7 @@
 package aed.modelo.contactos;
 
 import aed.colecoes.iteraveis.IteradorIteravelDuplo;
+import aed.colecoes.iteraveis.associativas.estruturas.TabelaHashComIncrementoPorHash;
 import aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenada;
 import aed.modelo.contactos.comparadores.ComparacaoContactosPorPrimeiroNomeAscSegPorUltimoNomeAsc;
 import aed.modelo.contactos.comparadores.ComparacaoGestoresContactosDataNascimentoPorDataNascimentoAsc;
@@ -13,10 +14,11 @@ public class GestorContactosDataNascimento implements Serializable {
 
 	private Data dataNascimento;
 	private ListaDuplaOrdenada<Contacto> contactos;
-
+	private TabelaHashComIncrementoPorHash<String,GestorContactoMorada>contactosPorMorada;
 	public GestorContactosDataNascimento(Data dataNascimento) {
 		this.dataNascimento = dataNascimento;
 		this.contactos = new ListaDuplaOrdenada<>(ComparacaoContactosPorPrimeiroNomeAscSegPorUltimoNomeAsc.CRITERIO);
+		this.contactosPorMorada = new TabelaHashComIncrementoPorHash<>(2);
 	}
 
 	@Override

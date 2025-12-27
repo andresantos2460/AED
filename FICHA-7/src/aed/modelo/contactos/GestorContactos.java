@@ -1,8 +1,11 @@
 package aed.modelo.contactos;
 
+import aed.colecoes.iteraveis.IteradorIteravel;
 import aed.colecoes.iteraveis.IteradorIteravelDuplo;
+import aed.colecoes.iteraveis.associativas.estruturas.TabelaHashComIncrementoPorHash;
 import aed.colecoes.iteraveis.associativas.estruturas.TabelaHashOrdenada;
 import aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaNaoOrdenada;
+import aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaSimplesNaoOrdenada;
 import aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenada;
 import aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaOrdenadaOrdemDistinta;
 import aed.modelo.contactos.comparadores.ComparacaoDataNascAsc;
@@ -12,10 +15,13 @@ public enum GestorContactos {
     INSTANCIA;
 
     public static final IteradorIteravelDuplo<Contacto> ITERADOR_CONTACTOS_VAZIOS =new ListaDuplaNaoOrdenada<Contacto>().iterador();
+    public static final IteradorIteravel<String> ITERADOR_STRINGS_VAZIOS = new ListaSimplesNaoOrdenada<String>().iterador();
     private TabelaHashOrdenada<Data,GestorContactosDataNascimento>contactosPorDataNascimentos;
+    private TabelaHashComIncrementoPorHash<Long,Contacto> contactosPorTelefone;
 
     GestorContactos() {
         contactosPorDataNascimentos=new TabelaHashOrdenada<>(ComparacaoDataNascAsc.CRITERIO,2);
+        contactosPorTelefone = new TabelaHashComIncrementoPorHash<>(2);
     }
     public void inserir(Contacto contacto){
         GestorContactosDataNascimento contactosDataNascimento=contactosPorDataNascimentos.consultar(contacto.getDataNascimento());
