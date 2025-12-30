@@ -50,8 +50,28 @@ public class ListaDuplaOrdenada<T> implements ColecaoIteravelLinearOrdenada<T> {
     }
 
     public ListaDuplaOrdenada<T> removerTodos(T elem) {
-        //TODO: PERGUNTA 2
-        return null;
+        ListaDuplaOrdenada<T> removidos = new ListaDuplaOrdenada<>(this.criterio);
+        No cor = getNoPorOrdem(elem);
+
+        while(cor!=base && cor.compararElemento(elem)==0){
+            No noARemover = cor;
+            cor = cor.seguinte;
+
+            //remover da lista atual
+            No proximo =  noARemover.seguinte;
+            noARemover.seguinte.anterior=noARemover.anterior;
+            noARemover.anterior.seguinte=proximo;
+            this.numeroElementos--;
+
+            No ultimoDaNova = removidos.base.anterior;
+            noARemover.anterior = ultimoDaNova;
+            noARemover.seguinte = removidos.base;
+            ultimoDaNova.seguinte = noARemover;
+            removidos.base.anterior = noARemover;
+            removidos.numeroElementos++;
+        }
+
+        return removidos;
     }
 
     protected No getNoPorOrdem(T elem) {

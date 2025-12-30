@@ -1,0 +1,9 @@
+Error on line 22 in C:\Users\Santoz\Documents\AED\AED\TESTERECURSO-ANDRE\src\aed\avaliacao\recurso\modelo\GestorImoveis.java:22: error: <identifier> expected
+        GestorImoveisConcelho imvoveisConcelho = imoveisPorConcelho.
+                                                                    ^
+Error on line 22 in C:\Users\Santoz\Documents\AED\AED\TESTERECURSO-ANDRE\src\aed\avaliacao\recurso\modelo\GestorImoveis.java:22: error: <identifier> expected
+        GestorImoveisConcelho imvoveisConcelho = imoveisPorConcelho.
+                                                                    ^
+Error on line 22 in C:\Users\Santoz\Documents\AED\AED\TESTERECURSO-ANDRE\src\aed\avaliacao\recurso\modelo\GestorImoveis.java:22: error: <identifier> expected
+        GestorImoveisConcelho imvoveisConcelho = imoveisPorConcelho.
+                                                                    ^

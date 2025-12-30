@@ -23,7 +23,7 @@ public class MainAvaliacaoListaDuplaOrdenada {
         lista.inserir(10);
 
         System.out.println(lista);
-        for (Integer elemento : lista.removerTodos(13)) {
+        for (Integer elemento : lista.removerTodos(3)) {
             System.out.println(elemento);
         }
     }
