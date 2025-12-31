@@ -1,0 +1,27 @@
+ClassNotFoundException: aed.avaliacao.periodicanormal.modelo.contactos.CoordenadaGeografica
+ClassNotFoundException: aed.avaliacao.periodicanormal.modelo.Data
+ClassNotFoundException: aed.avaliacao.periodicanormal.modelo.Data
+Error on line 268 in C:\OD\OneDrive - IPLeiria\2023_2024_AED\Avaliação\Testes Práticos Anos Letivos Anteriores\Normal_2017_2018\ProjetoBase_Normal_2017_2018\src\aed\colecoes\iteraveis\lineares\ordenadas\estruturas\ArvoreBinaria.java:268: error: unmappable character (0x81) for encoding windows-1252
+        sb.append("Ã?rvore BinÃ¡ria = {\n");
+                    ^
+Error on line 36 in C:\OD\OneDrive - IPLeiria\2023_2024_AED\Avaliação\Testes Práticos Anos Letivos Anteriores\Normal_2017_2018\ProjetoBase_Normal_2017_2018\src\aed\avaliacao\periodicanormal\MainAvaliacaoGestorContactos.java:36: error: cannot find symbol
+    private static void apresentar(IteradorIteravelDuplo<Contacto> iteradorContactos) {
+                                   ^
+  symbol:   class IteradorIteravelDuplo
+  location: class aed.avaliacao.periodicanormal.MainAvaliacaoGestorContactos
+Error on line 268 in C:\OD\OneDrive - IPLeiria\2023_2024_AED\Avaliação\Testes Práticos Anos Letivos Anteriores\Normal_2017_2018\ProjetoBase_Normal_2017_2018\src\aed\colecoes\iteraveis\lineares\ordenadas\estruturas\ArvoreBinaria.java:268: error: unmappable character (0x81) for encoding windows-1252
+        sb.append("Ã?rvore BinÃ¡ria = {\n");
+                    ^
+Error on line 36 in C:\OD\OneDrive - IPLeiria\2023_2024_AED\Avaliação\Testes Práticos Anos Letivos Anteriores\Normal_2017_2018\ProjetoBase_Normal_2017_2018\src\aed\avaliacao\periodicanormal\MainAvaliacaoGestorContactos.java:36: error: cannot find symbol
+    private static void apresentar(IteradorIteravelDuplo<Contacto> iteradorContactos) {
+                                   ^
+  symbol:   class IteradorIteravelDuplo
+  location: class aed.avaliacao.periodicanormal.MainAvaliacaoGestorContactos
+Error on line 268 in C:\OD\OneDrive - IPLeiria\2023_2024_AED\Avaliação\Testes Práticos Anos Letivos Anteriores\Normal_2017_2018\ProjetoBase_Normal_2017_2018\src\aed\colecoes\iteraveis\lineares\ordenadas\estruturas\ArvoreBinaria.java:268: error: unmappable character (0x81) for encoding windows-1252
+        sb.append("Ã?rvore BinÃ¡ria = {\n");
+                    ^
+Error on line 36 in C:\OD\OneDrive - IPLeiria\2023_2024_AED\Avaliação\Testes Práticos Anos Letivos Anteriores\Normal_2017_2018\ProjetoBase_Normal_2017_2018\src\aed\avaliacao\periodicanormal\MainAvaliacaoGestorContactos.java:36: error: cannot find symbol
+    private static void apresentar(IteradorIteravelDuplo<Contacto> iteradorContactos) {
+                                   ^
+  symbol:   class IteradorIteravelDuplo
+  location: class aed.avaliacao.periodicanormal.MainAvaliacaoGestorContactos
