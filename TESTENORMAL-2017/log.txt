@@ -25,3 +25,5 @@ Error on line 36 in C:\OD\OneDrive - IPLeiria\2023_2024_AED\Avaliação\Testes Prá
                                    ^
   symbol:   class IteradorIteravelDuplo
   location: class aed.avaliacao.periodicanormal.MainAvaliacaoGestorContactos
+ClassNotFoundException: aed.modelo.contactos.Data
+ClassNotFoundException: aed.modelo.contactos.Data
