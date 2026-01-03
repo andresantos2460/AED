@@ -1,0 +1,2 @@
+ClassNotFoundException: aed.avaliacao.periodica.Livro
+ClassNotFoundException: aed.avaliacao.periodica.Livro

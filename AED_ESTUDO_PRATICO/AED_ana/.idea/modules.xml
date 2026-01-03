@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AED.iml" filepath="$PROJECT_DIR$/.idea/AED.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Turno2EnunciLivros/Discord/Discord.iml" filepath="$PROJECT_DIR$/Turno2EnunciLivros/Discord/Discord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Equipas/Equipas.iml" filepath="$PROJECT_DIR$/Equipas/Equipas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Equipas2/Equipas2.iml" filepath="$PROJECT_DIR$/Equipas2/Equipas2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Equipas3/Equipas3.iml" filepath="$PROJECT_DIR$/Equipas3/Equipas3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Turno2EnunciLivros/Francisco/Francisco.iml" filepath="$PROJECT_DIR$/Turno2EnunciLivros/Francisco/Francisco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Imoveis/Imoveis.iml" filepath="$PROJECT_DIR$/Imoveis/Imoveis.iml" />
+    </modules>
+  </component>
+</project>

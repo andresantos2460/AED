@@ -1,0 +1,19 @@
+ 3)
+a)
+
+- Criar uma ListaDuplaOrdenada
+- variavel = new ListaDuplaOrdenada<>(Comparacao....CRITERIO);
+
+-Criar enum da Comparacao
+  -Inserir CRITERIO e 
+   -funcao public int compare(Tipo o1, Tipo o2){
+  return Double/.../Float.compare(o1.getAlgo(), o2.getAlgo());}
+- na funcao consultar escrever somente return variavel.iterador();
+
+b)
+- no ids objeto (ex:livro) clicar na balança e selecionar as variaveis que o enunciado pede (ex: titulo, n de paginas)
+-clicar na lista dupla ordenada (depende de como está o enunciado)
+- Como pedem Autor e Autor é uma string criar string
+- Clicar na caixa e meter o nome do gestor que queremos criar (ex:GestorAutor)
+-Puxar a string e a lista para dentro da caixa
+- clicar na engrenagem

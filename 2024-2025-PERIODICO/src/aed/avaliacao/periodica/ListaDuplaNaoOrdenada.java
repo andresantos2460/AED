@@ -158,48 +158,80 @@ public class ListaDuplaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenad
         return new Iterador();
     }
 
-    //todo pergunta 2.
-    public class IteradorUltimosTresElementos implements IteradorIteravelDuplo<T> {
-        private No anterior;
-        private No corrente;
-        private No anteriorAoPrimeiro;
+        //todo pergunta 2.
+        public class IteradorUltimosTresElementos implements IteradorIteravelDuplo<T> {
+            private No corrente;
+            private No anteriorAoPrimeiro;
 
-        public IteradorUltimosTresElementos() {
+            public IteradorUltimosTresElementos() {
+                reiniciar();
+            }
+
+            @Override
+            public void reiniciar() {
+                if (numeroElementos <= 3) {
+                    anteriorAoPrimeiro = base;
+                } else {
+                    // O primeiro dos 3 últimos é o antepenúltimo
+                    No primeiroDos3 = base.anterior.anterior.anterior;
+                    anteriorAoPrimeiro = primeiroDos3.anterior;
+                }
+                // Começar ANTES do primeiro elemento (como o iterador normal)
+                corrente = anteriorAoPrimeiro;
+            }
+
+            @Override
+            public T corrente() {
+                if (corrente == base) {
+                    throw new NoSuchElementException();
+                }
+                return corrente.elemento;
+
+            }
+
+            @Override
+            public boolean podeAvancar() {
+                return corrente.seguinte != base;
+            }
+
+
+            @Override
+            public T avancar() {
+                if (!podeAvancar()) {
+                    throw new NoSuchElementException(); // Em AED deve lançar exceção
+                }
+                corrente = corrente.seguinte;
+                return corrente.elemento;
+
+            }
+
+            @Override
+            public boolean podeRecuar() {
+                // Se estamos em anteriorAoPrimeiro (início), podemos recuar para o último elemento (base.anterior)
+                if (corrente == anteriorAoPrimeiro) {
+                    return base.anterior != base && base.anterior != anteriorAoPrimeiro;
+                }
+                return corrente.anterior != anteriorAoPrimeiro;
+            }
+
+            @Override
+            public T recuar() {
+                if (!podeRecuar()) {
+                    throw new NoSuchElementException();
+                }
+                // Se estamos em anteriorAoPrimeiro, saltar para o último elemento
+                if (corrente == anteriorAoPrimeiro) {
+                    corrente = base.anterior;
+                } else {
+                    corrente = corrente.anterior;
+                }
+                return corrente.elemento;
+            }
         }
 
-        @Override
-        public void reiniciar() {
+        public IteradorIteravelDuplo<T> iteradorUltimosTresElementos() {
+            return new IteradorUltimosTresElementos();
         }
-
-        @Override
-        public T corrente() {
-            return null;
-        }
-
-        @Override
-        public boolean podeAvancar() {
-            return false;
-        }
-
-        @Override
-        public T avancar() {
-            return null;
-        }
-
-        @Override
-        public boolean podeRecuar() {
-            return false;
-        }
-
-        @Override
-        public T recuar() {
-            return null;
-        }
-    }
-
-    public IteradorIteravelDuplo<T> iteradorUltimosTresElementos() {
-        return new IteradorUltimosTresElementos();
-    }
 
     @Override
     public String toString() {
