@@ -27,6 +27,19 @@ public class MainAvaliacaoTrocarPorOrdemDeInsercaoPilhaFila {
     }
 
     private static <T> void trocarPorOrdemDeInsercao(Pilha<T> pilha, Fila<T> fila) {
-        //todo pergunta 2.
+
+        int numeros_elementos=0;
+        while (!pilha.isVazia()){
+            fila.inserir(pilha.remover());
+            numeros_elementos++;
+        }
+
+        while (!fila.isVazia()){
+            pilha.inserir(fila.remover());
+        }
+
+        for (int i = 0; i <numeros_elementos ; i++) {
+            fila.inserir(pilha.remover());
+        }
     }
 }
