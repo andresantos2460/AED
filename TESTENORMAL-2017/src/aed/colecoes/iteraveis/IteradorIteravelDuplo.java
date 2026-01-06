@@ -24,4 +24,6 @@ public interface IteradorIteravelDuplo<T> extends IteradorIteravel<T> {
      * @return o elemento anterior
      */
     T recuar();
+
+
 }
