@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="493d7ce7-21db-4af6-ba24-1596ffacc32c" name="Changes" comment="" />
+    <list default="true" id="493d7ce7-21db-4af6-ba24-1596ffacc32c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/modelo/ComparacaoNomeAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/modelo/ComparacaoPontuacaoAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/modelo/ComparcaoNomeEPontuacaoDescEDiferencaGolosDesc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada$Iterador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada$Iterador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada$No.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada$No.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/SomaParesNumIntervaloIterativa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/SomaParesNumIntervaloIterativa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/SomaParesNumIntervaloRecursiva.class" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/classes/aed/avaliacao/periodicanormal/SomaParesNumIntervaloRecursiva.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/ListaSimplesNaoOrdenada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/SomaParesNumIntervaloIterativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/SomaParesNumIntervaloIterativa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/SomaParesNumIntervaloRecursiva.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/SomaParesNumIntervaloRecursiva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/modelo/GestorEquipas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2023-2024-PERIODICA-NAOFEITO/src/aed/avaliacao/periodicanormal/modelo/GestorEquipas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MainAvaliacaoGestorImoveis.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainAvaliacaoListaDuplaOrdenada.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.jGRASP Temp for ListaDuplaOrdenada.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Santoz/Documents/AED/AED/TESTERECURSO-ANDRE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainAvaliacaoGestorImoveis.executor": "Debug",
+    "Application.MainAvaliacaoListaDuplaOrdenada.executor": "Debug",
+    "Application.jGRASP Temp for ListaDuplaOrdenada.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/andre/Documents/school/AED/TESTE/TESTERECURSO-ANDRE",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.MainAvaliacaoGestorImoveis">
     <configuration name="MainAvaliacaoGestorImoveis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aed.avaliacao.recurso.MainAvaliacaoGestorImoveis" />
@@ -77,7 +90,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
       </set>
     </attachedChunks>
   </component>
