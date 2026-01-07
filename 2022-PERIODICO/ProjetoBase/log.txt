@@ -1,0 +1,27 @@
+Error on line 7 in /Users/andre/Downloads/2022-PERIODICO/ProjetoBase/src/aed/avaliacao/periodicanormal/GestorFaturas.java:7: error: cannot find symbol
+    private ListaD
+            ^
+  symbol:   class ListaD
+  location: class aed.avaliacao.periodicanormal.GestorFaturas
+Error on line -1 in Note: /Users/andre/Downloads/2022-PERIODICO/ProjetoBase/src/aed/colecoes/iteraveis/lineares/naoordenadas/utilizacao/MainTeoricaListaSimplesNaoOrdenada.java uses or overrides a deprecated API.
+Error on line -1 in Note: Recompile with -Xlint:deprecation for details.
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 7 in /Users/andre/Downloads/2022-PERIODICO/ProjetoBase/src/aed/avaliacao/periodicanormal/GestorFaturas.java:7: error: cannot find symbol
+    private ListaD
+            ^
+  symbol:   class ListaD
+  location: class aed.avaliacao.periodicanormal.GestorFaturas
+Error on line -1 in Note: /Users/andre/Downloads/2022-PERIODICO/ProjetoBase/src/aed/colecoes/iteraveis/lineares/naoordenadas/utilizacao/MainTeoricaListaSimplesNaoOrdenada.java uses or overrides a deprecated API.
+Error on line -1 in Note: Recompile with -Xlint:deprecation for details.
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 7 in /Users/andre/Downloads/2022-PERIODICO/ProjetoBase/src/aed/avaliacao/periodicanormal/GestorFaturas.java:7: error: cannot find symbol
+    private ListaD
+            ^
+  symbol:   class ListaD
+  location: class aed.avaliacao.periodicanormal.GestorFaturas
+Error on line -1 in Note: /Users/andre/Downloads/2022-PERIODICO/ProjetoBase/src/aed/colecoes/iteraveis/lineares/naoordenadas/utilizacao/MainTeoricaListaSimplesNaoOrdenada.java uses or overrides a deprecated API.
+Error on line -1 in Note: Recompile with -Xlint:deprecation for details.
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.

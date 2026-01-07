@@ -10,6 +10,7 @@ public class MainAvaliacaoGestorEquipas {
                 new Equipa("Sporting", 21, 44, 14),
                 new Equipa("Porto", 23, 42, 15),
                 new Equipa("Braga", 18, 33, 25),
+                new Equipa("Braga", 4, 4, 3),
                 new Equipa("Benfica", 23, 45, 21)
         };
 
