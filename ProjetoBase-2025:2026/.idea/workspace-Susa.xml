@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b19d5fc-fc09-4a1e-a120-d78fa6eab3d9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2sqXVuK6Xa0FQcJwjC0ejJlTuQR" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainAvaliacaoGestorAlunos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAvaliacaoRemoverTodos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAvaliacaoZibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Teste/Downloads/EI_AED_2024_2025_TestePratico_Especial_Base&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - IPLeiria\Aulas\2024_2025_AED\Avaliação\3 - Especial\Teste Prático\EI_AED_2024_2025_TestePratico_Especial_Resolucao" />
+      <recent name="F:\OneDrive - IPLeiria\Aulas\2024_2025_AED\Avaliação\3 - Especial\Teste Prático\Resolucao\src\aed" />
+      <recent name="F:\OneDrive - IPLeiria\Aulas\2024_2025_AED\Avaliação\3 - Especial\Teste Prático\Resolucao\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - IPLeiria\Aulas\2024_2025_AED\Avaliação\3 - Especial\Teste Prático\Resolucao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aed.colecoes.iteraveis.lineares.ordenadas.estruturas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainAvaliacaoRemoverTodos">
+    <configuration name="MainAvaliacaoGestorAlunos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aed.avaliacao.especial.MainAvaliacaoGestorAlunos" />
+      <module name="Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aed.avaliacao.especial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAvaliacaoRemoverTodos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aed.avaliacao.especial.MainAvaliacaoRemoverTodos" />
+      <module name="Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aed.avaliacao.especial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainAvaliacaoGestorAlunos" />
+      <item itemvalue="Application.MainAvaliacaoRemoverTodos" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainAvaliacaoRemoverTodos" />
+        <item itemvalue="Application.MainAvaliacaoGestorAlunos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b19d5fc-fc09-4a1e-a120-d78fa6eab3d9" name="Changes" comment="" />
+      <created>1739184106440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739184106440</updated>
+      <workItem from="1739184107642" duration="366000" />
+      <workItem from="1739184490189" duration="701000" />
+      <workItem from="1739185319672" duration="653000" />
+      <workItem from="1739186003259" duration="129000" />
+      <workItem from="1739186151901" duration="273000" />
+      <workItem from="1739186437912" duration="148000" />
+      <workItem from="1739186705391" duration="35000" />
+      <workItem from="1739186851232" duration="179000" />
+      <workItem from="1739187056475" duration="129000" />
+      <workItem from="1739187203159" duration="212000" />
+      <workItem from="1739187440450" duration="366000" />
+      <workItem from="1739188122999" duration="241000" />
+      <workItem from="1739188420515" duration="52000" />
+      <workItem from="1739188494518" duration="158000" />
+      <workItem from="1739188717974" duration="122000" />
+      <workItem from="1739189110310" duration="271000" />
+      <workItem from="1739189413259" duration="189000" />
+      <workItem from="1739189980428" duration="192000" />
+      <workItem from="1739190257065" duration="792000" />
+      <workItem from="1739191233086" duration="445000" />
+      <workItem from="1739191752350" duration="110000" />
+      <workItem from="1739200512565" duration="1000000" />
+      <workItem from="1739265873275" duration="59000" />
+      <workItem from="1739265967005" duration="33000" />
+      <workItem from="1739266415793" duration="13000" />
+      <workItem from="1739786204765" duration="1004000" />
+      <workItem from="1739788311886" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
